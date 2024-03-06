@@ -1,0 +1,21 @@
+docker run -d -p 5432:5432 --name Lexart -e POSTGRES_PASSWORD=123456 -e POSTGRES_USER=root postgres:latest
+
+{
+   "name": "Xiaomi Redmi 10",
+   "brand": "Xiaomi",
+   "model": "Redmi 10",
+   "price":  10000,
+   "color": "red"
+}
+
+{
+   "name": "Xiaomi Redmi 9",
+   "details": {
+       "brand": "Xiaomi",
+       "model": "Redmi 9",
+       "color": "red"
+   },
+   "price":  10000
+}
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo1fSwiaWF0IjoxNzA5NTgxMjQ4LCJleHAiOjE3MDk1ODQ4NDh9.gpl2ug0DjJ30PKx6NH8BqjWVT97OBQVBhf8bVd5dDSo
